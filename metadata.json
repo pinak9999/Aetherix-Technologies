@@ -1,0 +1,15 @@
+{
+  "name": "Aetherix Technologies",
+  "description": "Enterprise-grade autonomous AI agents, intelligent software solutions, and futuristic digital ecosystems for global innovation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Autonomous AI Agents",
+    "Enterprise Software",
+    "Generative AI Systems",
+    "Workflow Automation"
+  ]
+}
