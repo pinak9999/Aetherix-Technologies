@@ -124,7 +124,7 @@ export default function Blog() {
             <div className="flex flex-col md:flex-row gap-4">
               <input 
                 type="email" 
-                placeholder="architect@aetherix.in" 
+                placeholder="contact@aetherixai.tech" 
                 className="flex-1 bg-black/40 border border-white/10 rounded-full px-8 py-4 outline-none focus:border-accent-cyan transition-colors"
               />
               <button className="px-10 py-4 bg-white text-black font-bold rounded-full hover:bg-accent-cyan transition-colors shrink-0">

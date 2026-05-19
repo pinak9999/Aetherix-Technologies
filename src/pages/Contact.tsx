@@ -59,9 +59,9 @@ export default function Contact() {
           <div className="space-y-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
-                { icon: <Mail />, label: 'Email', value: 'contact@aetherix.in', href: 'mailto:contact@aetherix.in' },
-                { icon: <Phone />, label: 'Phone', value: '+91-22-87654321', href: 'tel:+912287654321' },
-                { icon: <Globe />, label: 'Website', value: 'aetherix.in', href: '#' },
+                { icon: <Mail />, label: 'Email', value: 'contact@aetherixai.tech', href: 'mailto:contact@aetherixai.tech' },
+                { icon: <Phone />, label: 'Phone', value: '+919834491836', href: 'tel:+919834491836' },
+                { icon: <Globe />, label: 'Website', value: 'aetherixai.tech', href: '#' },
                 { icon: <MessageSquare />, label: 'Support', value: '24/7 Neural Assistant', href: '#' },
               ].map((item, i) => (
                 <motion.a
