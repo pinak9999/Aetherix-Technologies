@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import { Link } from 'react-router-dom';
 import { Cpu, Zap, Shield, Globe, Layers, BarChart, Rocket, ChevronRight, PlayCircle } from 'lucide-react';
 import { cn } from '../lib/utils';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
@@ -250,5 +251,3 @@ export default function Home() {
   );
 }
 
-// Minimal Link replacement if needed, but App.tsx has Router
-import { Link } from 'react-router-dom';

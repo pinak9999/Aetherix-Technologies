@@ -13,7 +13,10 @@ export default defineConfig(({mode}) => {
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
+        'framer-motion': path.resolve(__dirname, 'node_modules/framer-motion/dist/es/index.mjs'),
+        'hls.js': path.resolve(__dirname, 'node_modules/hls.js/dist/hls.js'),
       },
+      noExternal: ['motion', 'framer-motion', 'hls.js'],
     },
     server: {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.

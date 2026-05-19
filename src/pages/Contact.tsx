@@ -60,7 +60,7 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 { icon: <Mail />, label: 'Email', value: 'contact@aetherixai.tech', href: 'mailto:contact@aetherixai.tech' },
-                { icon: <Phone />, label: 'Phone', value: '+91934491836', href: 'tel:+919834491836' },
+                { icon: <Phone />, label: 'Phone', value: '+91934491836', href: 'tel:+91934491836' },
                 { icon: <Globe />, label: 'Website', value: 'aetherixai.tech', href: '#' },
                 { icon: <MessageSquare />, label: 'Support', value: '24/7 Neural Assistant', href: '#' },
               ].map((item, i) => (
